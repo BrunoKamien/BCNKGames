@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+body{
+    font-size: 100%;
+    background: linear-gradient(to bottom, #016881, #01172d);
+}
+.cabeçalho {
+    background: #003365;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.imagem-cabeçalho {
+    padding-left: 50px;
+    height: 40px;
+    width: 120px;
+}
+
+.frase {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.container {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 50px;
+    background-color: #003265a3;
+    border-radius: 8px;
+}
+
+form {
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+label {
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+}
+
+input, textarea {
+    font-family: sans-serif;
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #00f9f1;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 35%;
+    
+}
+
+button:hover {
+    background-color: #006eff;
+}
+
+.contato {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin-top: 40px;
+    text-align: center;
+}
+        
+.rodape{
+    background: #003365;
+    border-radius: 15px;
+}
+
+.imagem-rodape { 
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+    height: 60px;
+    width: 180px;
+}
+
+.copyrights {
+    padding-top: 5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    padding: 10px
+}
+
+.rodapelinks {
+    text-align: center;
+    padding: 10px;
+}
+
+.linkagem {
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
+.linksfinal {
+    font-family: Arial, sans-serif;
+    color: #e67e22;
+}

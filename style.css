@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+body{
+    font-size: 100%;
+    background: linear-gradient(to bottom, #016881, #01172d);
+}
+.cabeçalho {
+    background: #003365;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    margin-top: 5px;
+    padding: 19px;
+    padding-left: 10px;
+    padding-top: 14px;
+}
+
+.imagem-cabeçalho {
+    padding-left: 50px;
+    height: 40px;
+    width: 120px;
+}
+
+.frase {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+header{
+    text-align: center;
+}
+
+.frase2 {
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.chamada {
+    background-color: #e67e22;
+    color: white;
+    padding: 15px 30px;
+    font-family: "Doto", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.chamada:hover {
+    background-color: #d35400;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+}.jogar {
+    background-color: #e67e22;
+    color: white;
+    
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #ffffff;
+}
+.lista-produtos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.881);
+    width: 350px;
+    height: 300px;
+    text-align: center;
+}
+
+.produto img {
+    border-radius: 10px;
+    height: 200px;
+    width: 350px;
+}
+
+h3 {
+    padding-bottom: 10px;
+}
+
+.depoimentos-lista {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.depoimentos {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.881);
+    width: 300px;
+    text-align: center;
+}
+
+
+.depoimentos img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.rodapelinks {
+    text-align: center;
+    padding: 10px;
+}
+.linksfinal {
+    font-family: Arial, sans-serif;
+    color: #e67e22;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.rodape{
+    background: #003365;
+    border-radius: 15px;
+}
+
+.imagem-rodape { 
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+    height: 60px;
+    width: 180px;
+}
+
+.copyrights {
+    padding-top: 5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    padding: 10px
+}

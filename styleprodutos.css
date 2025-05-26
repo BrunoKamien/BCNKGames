@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+body{
+    font-size: 100%;
+    background: linear-gradient(to bottom, #016881, #01172d);
+}
+.cabeçalho {
+    background: #003365;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.imagem-cabeçalho {
+    padding-left: 50px;
+    height: 40px;
+    width: 120px;
+}
+
+.frase {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.categorias{
+    color: #ffffff;
+    margin-left: 40px ;
+    font-size: 30px;
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+section {
+    padding: 2em;
+}
+.lista-jogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10 px 20px;
+
+}
+.item-jogo {
+    background-color: rgba(247, 247, 247, 0.5);
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+}
+.item-jogo:hover {
+    transform: scale(1.05);
+    
+}
+.item-jogo img {
+    border-radius: 10px;
+    height: 150px;
+    width: 300px;
+}
+.item-jogo h3 {
+    font-family: "Sarala", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.item-jogo p {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    max-width: 300px;
+    font-style: normal;
+}
+
+.item-jogo .preço {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    background-color: #e67e22;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    max-width: 100px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.item-jogo .preço:hover {
+    background-color: #d35400;
+
+}
+
+.rodapelinks {
+    text-align: center;
+    padding: 10px;
+}
+
+.linksfinal {
+    font-family: Arial, sans-serif;
+    color: #e67e22;
+}
+
+.rodape{
+    background: #003365;
+    border-radius: 15px;
+}
+
+.imagem-rodape { 
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+    height: 60px;
+    width: 180px;
+}
+
+.copyrights {
+    padding-top: 5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    padding: 10px
+}
+
